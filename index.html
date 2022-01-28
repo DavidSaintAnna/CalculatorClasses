@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora JS</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+
+  <body>
+    <body>
+      <main class="container">
+        <header class="header">
+          <h1>Calculator</h1>
+        </header>
+        <section class="display">
+          <input
+            type="text"
+            id="display_btn2"
+            class="currentvalue"
+            value="0"
+            readonly
+            data-current
+          />
+          <input
+            type="text"
+            id="display_btn"
+            class="previousvalue"
+            value="0"
+            readonly
+            data-current
+          />
+        </section>
+
+        <button class="clearEntry function"></button>
+        <button class="clear function" data-clear>c</button>
+        <button class="delete function" data-delete></button>
+        <button class="operator divide function" data-oper>/</button>
+
+        <button class="number" data-info>7</button>
+        <button class="number" data-info>8</button>
+        <button class="number" data-info>9</button>
+        <button class="operator function" data-oper>*</button>
+
+        <button class="number" data-info>4</button>
+        <button class="number" data-info>5</button>
+        <button class="number" data-info>6</button>
+        <button class="operator function" data-oper>-</button>
+
+        <button class="number" data-info>1</button>
+        <button class="number" data-info>2</button>
+        <button class="number" data-info>3</button>
+        <button class="operator function" data-oper>+</button>
+        <button class="number" data-info>0</button>
+        <button class="equals" data-equal>=</button>
+      </main>
+      <script src="scripts/script.js"></script>
+    </body>
+  </body>
+</html>
